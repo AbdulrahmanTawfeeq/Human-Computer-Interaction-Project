@@ -1,0 +1,19 @@
+<div class="bg-light pt-2 row">
+        <div class="col col-lg-4 col-md-12 col-sm-12 form-inline">
+           <input class="form-control py-2 col-8 d-inline" type="search" value="" id="" placeholder="Search">
+          <span class="input-group-append">
+            <button class="btn btn-primary p-2" type="button">
+               <i class="fas fa-search"></i>
+            </button>
+          </span>
+        </div>
+        <div class="pt-2">
+           <nav aria-label="breadcrumb mt-2">
+            <ol class="breadcrumb bg-light text-dark">
+              <li class="breadcrumb-item p-2 rounded"><a href="index.php">Home</a></li>
+              <li class="breadcrumb-item p-2 rounded"><?php $page = basename($_SERVER['PHP_SELF']);
+              $page = rtrim($page, ".php"); echo $page; ?></li>
+            </ol>
+          </nav>
+        </div>
+      </div>

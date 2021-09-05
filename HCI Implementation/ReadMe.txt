@@ -1,0 +1,1 @@
+In order to run the page plase use apache server instead of running it directly

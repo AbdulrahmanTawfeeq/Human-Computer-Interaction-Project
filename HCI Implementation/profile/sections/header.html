@@ -1,0 +1,89 @@
+<header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top">
+          <span class="navbar-brand mb-0 h1"><a href="#" class="text-dark ">BM</a>
+            <!-- -->
+            <a href="#" class="text-white d-none d-lg-none d-sm-block d-md-block"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+        </svg></a></span>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-dark" style="font-size: 25px"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="index.php">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="../contact.php">Contact-Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="../about.php">About-Us</a>
+              </li>
+            </ul>
+            <hr class="d-lg-none bg-light">
+            <div class="row">
+              <!-- Zoom -->
+              <div class="dropdown p-3">
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle rounded" data-toggle="dropdown">
+                  <span class="text-dark">Font Size</span>  &nbsp;
+                  <i class="fas fa-search-plus"></i>  &nbsp;
+                </button>
+                <div class="dropdown-menu">
+                  <button class="dropdown-item" id="defaultfont" href="#">Default</button>
+                  <button class="dropdown-item" id="medfont"  href="#">Medume</button>
+                  <button class="dropdown-item" id="largefont"  href="#">Large</button>
+                  <button class="dropdown-item" id="xlargefont"  href="#">X Large</button>
+                  <button class="dropdown-item" id="xxlargefont"  href="#">XX Large</button>
+                </div>
+              </div>
+              <!-- end Zoom -->
+             
+
+              <div class="mt-3">
+                <!-- <span for="btngroup" class="pr-4 pb-2 text-dark">Mode:</span> -->
+                    <div id="btngroup" class="btn-group  btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-outline-dark active" onclick="" id="lightbutton">
+                        <input class="" type="radio" name="options" id="option1" autocomplete="off" checked> Default <i class="fas fa-lightbulb"></i>
+                      </label>
+                      <label class="btn btn btn-outline-dark" onclick="" id="darkbutton" >
+                        <input type="radio" name="options" id="option2" autocomplete="off"> Dark
+                       <i class="fas fa-adjust"></i>
+                      </label>
+                    </div>
+                </div>  
+
+                <div class="mt-3 ml-2">
+                <!-- <span for="btngroup" class="pr-4 pb-2 text-dark">Mode:</span> -->
+                    <div  id="btngroup" class="btn-group  btn-group-toggle" data-toggle="buttons">
+                      <label onclick="removeSound()" class="btn btn-outline-info " onclick="" id="lightbutton" >
+                        <input onclick="removeSound()" class="" type="radio" name="options" id="option1" autocomplete="off" checked> &#x1f508;
+                      </label>
+                      <label class="btn btn btn-outline-info active" onclick="" id="darkbutton"  >
+                        <input type="radio" name="options" id="option2" autocomplete="off">
+                       <i onclick="applySound()" class="fas fa-volume-up"></i>
+                      </label>
+                    </div>
+                </div>  
+
+               <div class="dropdown p-3">
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle rounded" data-toggle="dropdown">
+                  <span class="text-dark">Mohammed</span>  &nbsp;
+                  <img src="../images/profile.jpg" style="width: 30px;height: 30px" class="rounded-circle">  &nbsp;
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Edit Profile <i class="fas fa-user-edit float-right"></i></a>
+                  <a class="dropdown-item" href="#">Change City <i class="fas fa-map-marker-alt float-right"></i></a>
+                  <a class="dropdown-item" href="#">Reset Password <i class="fas fa-key"></i></a>
+                  <div class="dropdown-divider"></div>
+                  <a onclick="return confirm('Are you sure?');" class="dropdown-item" href="../" >Logout <i class=" text-danger fas fa-sign-out-alt float-right"></i></a>
+                </div>
+              </div>
+              <div class="p-3">
+                <a href="#" style=""></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>

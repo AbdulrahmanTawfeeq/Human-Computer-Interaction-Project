@@ -1,0 +1,75 @@
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 9px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 100%;
+    border-radius: 4%;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.btnSignup
+{
+    width: 100%;
+    border-radius: 5%;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+
+.login-form-1 .btnSignup{
+    font-weight: 600;
+    color: #fff;
+    background-color: #2da728;
+}
+.form-group [type~=text]{
+    text-align: center;
+}
+
+.form-group [type~=password]{
+    text-align: center;
+}
+
+body {
+    margin-top: 70px;
+}
+
+.input-de{
+    font-size: 12.5pt;
+}
+.input-md{
+    font-size: 14pt;
+}
+.input-lg{
+    font-size: 18pt;
+}
+.input-xl{
+    font-size: 20pt;
+}
+.input-xxl{
+    font-size: 25pt;
+}
+
+.btnclass{
+    width: 120px;
+}
